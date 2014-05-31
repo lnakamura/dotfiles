@@ -36,7 +36,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# Load RVM
-source /Users/Liane/.rvm/scripts/rvm
+# This loads RVM into a shell session.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
