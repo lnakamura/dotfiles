@@ -34,6 +34,9 @@ ZSH_THEME="minimal"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
+# Node
+export NODE_PATH=/usr/local/lib/node_modules
+
 source $ZSH/oh-my-zsh.sh
 
 # This loads RVM into a shell session.
