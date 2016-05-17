@@ -10,6 +10,7 @@ brew 'redis'
 brew 'swiftlint'
 brew 'go'
 brew 'pyenv'
+brew 'pyenv-virtualenv'
 
 cask 'adium'
 cask 'google-chrome'
