@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'caskroom/versions'
 
 brew 'gradle'
 brew 'imagemagick'
@@ -15,4 +16,4 @@ cask 'google-chrome'
 cask 'dockertoolbox'
 cask 'imageoptim'
 cask 'postgres'
-cask 'sublime-text'
+cask 'sublime-text3'
