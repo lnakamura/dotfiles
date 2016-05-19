@@ -10,5 +10,8 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
+# This loads RVM into a shell session.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
 # Disable ZSH autocorrect
 unsetopt correct
