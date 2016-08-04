@@ -11,6 +11,7 @@ brew 'swiftlint'
 brew 'go'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
+brew 'elixir'
 
 cask 'adium'
 cask 'google-chrome'
