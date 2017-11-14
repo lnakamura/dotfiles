@@ -2,7 +2,7 @@
 
 " load up pathogen and all bundles
 execute pathogen#infect()
-syntax on                         " show syntax highlighting
+"syntax on                         " show syntax highlighting
 filetype plugin indent on
 set autoindent                    " set auto indent
 set ts=2                          " set indent to 2 spaces
@@ -35,6 +35,8 @@ set wildmode=list:longest,full
 set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]
 
 " setup custom colors
+syntax enable
+set background=dark
 colorscheme solarized
 
 " set up some custom colors
