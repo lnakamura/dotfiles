@@ -5,6 +5,8 @@ export PYENV_ROOT=/usr/local/var/pyenv
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi

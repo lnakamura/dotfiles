@@ -64,8 +64,8 @@ excluded=(. .. .git .gitignore bootstrap.sh Brewfile README.md)
 #-----------------------------------------------------------------------------
 
 # Backup
-info "Backup up old files ($backupdir)"
-backup
+#info "Backup up old files ($backupdir)"
+#backup
 
 # Install
 info "Installing"
@@ -84,16 +84,7 @@ then
   if test ! $(which brew)
   then
     echo "  Installing Homebrew for you."
-
-    # Install the correct homebrew for each OS type
-    if test "$(uname)" = "Darwin"
-    then
-      ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    elif test "$(expr substr $(uname -s) 1 5)" = "Linux"
-    then
-      ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
-    fi
-
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   fi
 
   echo "› brew update"
@@ -107,7 +98,6 @@ then
   brew cleanup
 
   success "dependencies installed"
-
 fi
 
 
