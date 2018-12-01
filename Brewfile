@@ -28,4 +28,3 @@ brew 'pyenv'
 brew 'pyenv-virtualenv'
 brew 'elixir'
 brew 'heroku/brew/heroku'
-brew 'yarn' --without-node
