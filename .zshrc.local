@@ -22,4 +22,4 @@ unsetopt correct
 # eval "$(docker-machine env default)"
 
 # Yarn https://yarnpkg.com
-export PATH="$PATH:`yarn global bin`"
+# export PATH="$PATH:`yarn global bin`"
