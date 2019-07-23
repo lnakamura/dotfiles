@@ -97,6 +97,10 @@ then
   echo "› brew cleanup"
   brew cleanup
 
+  echo "starting services"
+  brew services start redis
+  brew services start rabbitmq
+
   success "dependencies installed"
 fi
 
