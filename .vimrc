@@ -37,7 +37,7 @@ set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]
 " setup custom colors
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme gruvbox
 
 " set up some custom colors
 "hi NonText ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
