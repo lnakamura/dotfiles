@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'caskroom/versions'
+tap 'homebrew/cask-versions'
 
 cask 'android-studio'
 cask 'dropbox'
@@ -18,6 +18,7 @@ cask 'slack'
 cask 'spotify'
 cask 'sublime-text'
 cask 'vlc'
+cask 'zoomus'
 
 brew 'elixir'
 brew 'go'
